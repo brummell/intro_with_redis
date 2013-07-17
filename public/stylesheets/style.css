@@ -1,0 +1,23 @@
+body {
+    font: 12px/14px sans-serif;
+}
+#page {
+}
+#mainTitle {
+    font-size: 1.5em;
+}
+#content {
+    padding: 10px;
+}
+.q {
+    border: 1px solid gray;
+    background-color: lightgray;
+    margin: 1em;
+    padding: 0.5em;
+}
+.a {
+    border: 1px solid gray;
+    background-color: white;
+    margin: 0.1em;
+    padding: 0.5em;
+}

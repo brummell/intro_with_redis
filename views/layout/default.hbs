@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{title}}</title>
+    <meta name="description" content="{{description}}">
+    <link type="text/css" rel="stylesheet" href="/stylesheets/style.css"/>
+    {{{block "pageStyles"}}}
+</head>
+<body>
+    <div id="page">
+        <h1 id="mainTitle">{{mainTitle}}</h1>
+        <div id="heading">pages</div>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about-us">About Us</a></li>
+            <li><a href="/faq">FAQ</a></li>
+        </ul>
+
+        <hr />
+
+        <div id="content">
+            {{{body}}}
+        </div>
+
+        <hr />
+
+        <div id="footer">footer</div>
+    </div>
+
+    {{{block "pageScripts"}}}
+</body>
+</html>
